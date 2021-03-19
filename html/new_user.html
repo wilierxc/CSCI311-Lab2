@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <title>Create New Account</title>
+        <link rel="stylesheet" type="text/css" href="CSS/home.css">
+        <link rel="stylesheet" type="text/css" href="CSS/dark.css">
+        <meta charset="utf-8" />
+    </head>
+    <body class="na" id="theme">        
+        <div class="form-wrapper">
+            <h1>Create New Account</h1>
+            <form method="GET" action="new_user.html" id="RegisterForm">
+                <div class="row">
+                    <label>Username</label>
+                    <input type="text" name="username" required>
+                    <span class="error"></span>
+                </div>
+
+                <div class="theme">
+                    <p>Theme Preference<br>
+                    <input type="radio" id="light" name="theme" value="light" checked required>
+                    <label for="light">Light</label>
+                    <input type="radio" id="dark" name="theme" value="dark" required>
+                    <label for="dark">Dark</label></p>
+                </div>
+                <div class="row">
+                    <input type="submit" value="Register">
+                </div>
+            </form>
+
+        </div>
+		
+        <script type="text/javascript" src="js/theme_change.js"></script>
+    </body>
+</html>

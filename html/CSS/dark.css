@@ -1,0 +1,13 @@
+
+
+.dark {
+    background-color: black;
+}
+
+body.dark label,
+body.dark p,
+body.dark h1,
+body.dark a {
+    color: white;
+}
+
